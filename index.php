@@ -251,6 +251,12 @@
     $page = $_GET['page'];
 
     switch ($page) {
+      case 'registration':
+        include "users/registration.php";
+        break;
+      case 'login':
+        include "users/login.php";
+        break;
       case 'dashboard':
         include "pages/dashboard/dashboard.php";
         break;
