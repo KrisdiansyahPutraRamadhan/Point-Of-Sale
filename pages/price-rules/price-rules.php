@@ -50,8 +50,8 @@ require_once("config.php");
                 <td class="whitespace-nowrap px-2 py-2 text-sm text-gray-500"><?php echo $row['rule_type'] ?></td>
                 <td class="whitespace-nowrap px-2 py-2 text-sm text-gray-500"><?php echo $row['coupon_code'] ?></td>
                 <td class="relative whitespace-nowrap py-2 pr-4 text-right text-sm font-medium sm:pr-6 gap-2">
-                  <a href="index.php?page=price-rules-delete&id=<?php echo $row['id'] ?>">Edit</a>
-                  <a href="index.php?page=price-rules-update&id=<?php echo $row['id'] ?>" onclick="return confirm('do you want to delete this?')">Delete</a>
+                  <a href="index.php?page=price-rules-update&id=<?php echo $row['id'] ?>">Edit</a>
+                  <a href="index.php?page=price-rules-delete&id=<?php echo $row['id'] ?>" onclick="return confirm('do you want to delete this?')">Delete</a>
                 </td>
               </tr>
               <?php } } ?>

@@ -2,7 +2,7 @@
 	require_once('config.php');
 ?>
 <?php
-$pdo_statement = $pdo_conn->prepare("SELECT * FROM itemkits ORDER BY id DESC");
+$pdo_statement = $pdo_conn->prepare("SELECT * FROM tbl_itemkits ORDER BY id DESC");
 $pdo_statement->execute();
 $result = $pdo_statement->fetchALL();
 ?>
@@ -79,13 +79,13 @@ $result = $pdo_statement->fetchALL();
                                         </td>
                                         <td
                                             class="whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
-                                            <a href="item-kits-edit.php"
+                                            <a href="index.php?page=item-kits-update&id=<?php echo $row['id'] ?>"
                                                 class="text-indigo-600 hover:text-indigo-900">Edit<span
                                                     class="sr-only"></span></a>
                                         </td>
                                         <td
                                             class="whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
-                                            <a href="item-kits-delete.php"
+                                            <a href="index.php?page=item-kits-delete&id=<?php echo $row['id'] ?>"
                                                 class="text-indigo-600 hover:text-indigo-900">Delete<span
                                                     class="sr-only"></span></a>
                                         </td>

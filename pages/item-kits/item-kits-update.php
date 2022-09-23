@@ -1,13 +1,13 @@
 <?php
 require_once("config.php");
 if(!empty($_POST["update"])) {
-	$pdo_statement=$pdo_conn->prepare("update itemkits set id='" . $_POST[ 'id' ] . "', product='" . $_POST[ 'product' ]. "', category='" . $_POST[ 'category' ]. "', cost_price='" . $_POST[ 'cost_price' ]. "', selling_price='" . $_POST[ 'selling_price' ]. "' where id=" . $_GET["id"]);
+	$pdo_statement=$pdo_conn->prepare("update tbl_itemkits set id='" . $_POST[ 'id' ] . "', product='" . $_POST[ 'product' ]. "', category='" . $_POST[ 'category' ]. "', cost_price='" . $_POST[ 'cost_price' ]. "', selling_price='" . $_POST[ 'selling_price' ]. "' WHERE id=" . $_GET["id"]);
   $result = $pdo_statement->execute();
   if($result) {
 		echo "<script>window.location.href='index.php?page=item-kits'</script>";
 	}
 }
-$pdo_statement = $pdo_conn->prepare("SELECT * FROM itemkits where id=" . $_GET["id"]);
+$pdo_statement = $pdo_conn->prepare("SELECT * FROM tbl_itemkits where id=" . $_GET["id"]);
 $pdo_statement->execute();
 $result = $pdo_statement->fetchAll();
 ?>
@@ -15,7 +15,7 @@ $result = $pdo_statement->fetchAll();
     <div class="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
-            <a href="index.php?page=item-kits" class="text-2xl font-semibold text-gray-900">Add Item Kits</a>
+            <a href="index.php?page=item-kits" class="text-2xl font-semibold text-gray-900">Update Item Kits</a>
         </div>
         <div class="py-6">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 border-gray-200 rounded-lg h-96">
@@ -61,8 +61,8 @@ $result = $pdo_statement->fetchAll();
 
             </div>
 
-            <button type="submit" name="submit" value="ADD"
-                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-indigo-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
+            <button type="submit" name="update" value="ADD"
+                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-indigo-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Update</button>
             </form>
         </div>
     </div>

@@ -1,7 +1,7 @@
 <?php
 if(!empty($_POST["submit"])) {
 	require_once("config.php");
-	$sql = "INSERT INTO itemkits VALUES ( :id, :product, :category, :cost_price, :selling_price )";
+	$sql = "INSERT INTO tbl_itemkits VALUES ( :id, :product, :category, :cost_price, :selling_price )";
 	$pdo_statement = $pdo_conn->prepare( $sql );
 	$result = $pdo_statement->execute( array( ':id'=>$_POST['id'], ':product'=>$_POST['product'], ':category'=>$_POST['category'], ':cost_price'=>$_POST['cost_price'], ':selling_price'=>$_POST['selling_price'] ) );
 	print_r($result);

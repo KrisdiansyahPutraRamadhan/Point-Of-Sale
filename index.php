@@ -6,11 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Point Of Sale</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;800&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;900;600;800&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
 </head>
-<body class="h-full">
+<body class="h-full scroll-smooth hover:scroll-auto">
 <div>
   <div class="relative z-40 md:hidden" role="dialog" aria-modal="true">
     <div class="fixed inset-0 bg-gray-600 bg-opacity-75"></div>
@@ -76,12 +76,6 @@
 
             <a href="#" class="text-indigo-100 hover:bg-indigo-600 group flex items-center px-2 py-2 text-base font-medium rounded-md">
               <!-- Heroicon name: outline/chart-bar -->
-              <svg class="mr-4 flex-shrink-0 h-6 w-6 text-indigo-300"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M3 21h4l13 -13a1.5 1.5 0 0 0 -4 -4l-13 13v4" />  <line x1="14.5" y1="5.5" x2="18.5" y2="9.5" />  <polyline points="12 8 7 3 3 7 8 12" />  <line x1="7" y1="8" x2="5.5" y2="9.5" />  <polyline points="16 12 21 17 17 21 12 16" />  <line x1="16" y1="17" x2="14.5" y2="18.5" /></svg>
-              Manufacturers
-            </a>
-
-            <a href="#" class="text-indigo-100 hover:bg-indigo-600 group flex items-center px-2 py-2 text-base font-medium rounded-md">
-              <!-- Heroicon name: outline/chart-bar -->
               <svg class="mr-4 flex-shrink-0 h-6 w-6 text-indigo-300"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <rect x="5" y="3" width="14" height="18" rx="2" />  <line x1="9" y1="7" x2="15" y2="7" />  <line x1="9" y1="11" x2="15" y2="11" />  <line x1="9" y1="15" x2="13" y2="15" /></svg>
               Modifiers
             </a>
@@ -90,12 +84,6 @@
               <!-- Heroicon name: outline/chart-bar -->
               <svg class="mr-4 flex-shrink-0 h-6 w-6 text-indigo-300"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />  <circle cx="9" cy="9" r="2" /></svg>
               Tags
-            </a>
-
-            <a href="#" class="text-indigo-100 hover:bg-indigo-600 group flex items-center px-2 py-2 text-base font-medium rounded-md">
-              <!-- Heroicon name: outline/chart-bar -->
-              <svg class="mr-4 flex-shrink-0 h-6 w-6 text-indigo-300"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <rect x="4" y="4" width="16" height="6" rx="2" />  <rect x="4" y="14" width="16" height="6" rx="2" /></svg>
-              Attributes
             </a>
 
             <a href="#" class="text-indigo-100 hover:bg-indigo-600 group flex items-center px-2 py-2 text-base font-medium rounded-md">
@@ -128,12 +116,6 @@
               <!-- Heroicon name: outline/chart-bar -->
               <svg class="mr-4 flex-shrink-0 h-6 w-6 text-indigo-300"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="7" cy="17" r="2" />  <circle cx="17" cy="17" r="2" />  <path d="M5 17h-2v-6l2-5h9l4 5h1a2 2 0 0 1 2 2v4h-2m-4 0h-6m-6 -6h15m-6 0v-5" /></svg>            
                Deliveries
-            </a>
-
-            <a href="#" class="text-indigo-100 hover:bg-indigo-600 group flex items-center px-2 py-2 text-base font-medium rounded-md">
-              <!-- Heroicon name: outline/chart-bar -->
-              <svg class="mr-4 flex-shrink-0 h-6 w-6 text-indigo-300"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M7 10h3v-3l-3.5 -3.5a6 6 0 0 1 8 8l6 6a2 2 0 0 1 -3 3l-6-6a6 6 0 0 1 -8 -8l3.5 3.5" /></svg>           
-              Work Orders
             </a>
 
             <a href="#" class="text-indigo-100 hover:bg-indigo-600 group flex items-center px-2 py-2 text-base font-medium rounded-md">
@@ -201,7 +183,7 @@
   <?php include('includes/sidebar.php');?>
   <div class="md:pl-64 flex flex-col flex-1">
     <div class="sticky top-0 z-10 flex-shrink-0 flex h-16 bg-white shadow">
-      <button type="button" class="px-4 border-r border-gray-200 text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 md:hidden">
+      <button type="button" class="px-4 border-r border-gray-200 text-gray-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-900 md:hidden">
         <span class="sr-only">Open sidebar</span>
         <!-- Heroicon name: outline/menu-alt-2 -->
         <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
@@ -219,12 +201,12 @@
                   <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
                 </svg>
               </div>
-              <input id="search-field" class="block w-full h-full pl-8 pr-3 py-2 border-transparent text-gray-900 placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:ring-0 focus:border-transparent sm:text-sm" placeholder="Search" type="search" name="search">
+              <input id="search-field" class="block w-full h-full pl-8 pr-3 py-2 border-transparent text-gray-900 placeholder-gray-900 focus:outline-none focus:placeholder-gray-400 focus:ring-0 focus:border-transparent sm:text-sm" placeholder="Search" type="search" name="search">
             </div>
           </form>
         </div>
         <div class="ml-4 flex items-center md:ml-6">
-          <button type="button" class="bg-white p-1 rounded-full text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+          <button type="button" class="bg-white p-1 rounded-full text-gray-400 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-900">
             <span class="sr-only">View notifications</span>
             <!-- Heroicon name: outline/bell -->
             <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
@@ -235,7 +217,7 @@
           <!-- Profile dropdown -->
           <div class="ml-3 relative">
             <div>
-              <button type="button" class="max-w-xs bg-white flex items-center text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
+              <button type="button" class="max-w-xs bg-white flex items-center text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-900" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
                 <span class="sr-only">Open user menu</span>
                 <img class="h-8 w-8 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
               </button>
@@ -263,6 +245,15 @@
       case 'customers':
         include "pages/customers/customers.php";
         break;
+      case 'customers-create':
+        include "pages/customers/customers-create.php";
+        break;
+      case 'customers-delete':
+        include "pages/customers/customers-delete.php";
+        break;
+      case 'customers-update':
+        include "pages/customers/customers-update.php";
+        break;
       case 'suppliers':
         include "pages/suppliers/suppliers.php";
         break;
@@ -278,8 +269,26 @@
       case 'items':
         include "pages/items/items.php";
         break;
+      case 'items-create':
+        include "pages/items/items-create.php";
+        break;
+      case 'items-delete':
+        include "pages/items/items-delete.php";
+        break;
+      case 'items-update':
+        include "pages/items/items-update.php";
+        break;
       case 'item-kits':
         include "pages/item-kits/item-kits.php";
+        break;
+      case 'item-kits-create':
+        include "pages/item-kits/item-kits-create.php";
+        break;
+      case 'item-kits-update':
+        include "pages/item-kits/item-kits-update.php";
+        break;
+      case 'item-kits-delete':
+        include "pages/item-kits/item-kits-delete.php";
         break;
       case 'categories':
         include "pages/categories/categories.php";
@@ -299,6 +308,15 @@
       case 'price-rules':
         include "pages/price-rules/price-rules.php";
         break;
+      case 'price-rules-create':
+        include "pages/price-rules/price-rules-create.php";
+        break;
+      case 'price-rules-delete':
+        include "pages/price-rules/price-rules-delete.php";
+        break;
+      case 'price-rules-update':
+        include "pages/price-rules/price-rules-update.php";
+        break;
       case 'reports':
         include "pages/reports/reports.php";
         break;
@@ -310,6 +328,15 @@
         break;
       case 'deliveries':
         include "pages/deliveries/deliveries.php";
+        break;
+      case 'deliveries-create':
+        include "pages/deliveries/deliveries-create.php";
+        break;
+      case 'deliveries-delete':
+        include "pages/deliveries/deliveries-delete.php";
+        break;
+      case 'deliveries-update':
+        include "pages/deliveries/deliveries-update.php";
         break;
       case 'work-orders':
         include "pages/work-orders/work-orders.php";
@@ -323,14 +350,41 @@
       case 'employees':
         include "pages/employees/employees.php";
         break;
+      case 'employees-create':
+        include "pages/employees/employees-create.php";
+        break;
+      case 'employees-update':
+        include "pages/employees/employees-update.php";
+        break;
+      case 'employees-delete':
+        include "pages/employees/employees-delete.php";
+        break;
       case 'gift-cards':
         include "pages/gift-cards/gift-cards.php";
+        break;
+      case 'gift-cards-create':
+        include "pages/gift-cards/gift-cards-create.php";
+        break;
+      case 'gift-cards-update':
+        include "pages/gift-cards/gift-cards-update.php";
+        break;
+      case 'gift-cards-delete':
+        include "pages/gift-cards/gift-cards-delete.php";
         break;
       case 'store-config':
         include "pages/store-config/store-config.php";
         break;
       case 'locations':
         include "pages/locations/locations.php";
+        break;
+      case 'locations-create':
+        include "pages/locations/locations-create.php";
+        break;
+      case 'locations-update':
+        include "pages/locations/locations-update.php";
+        break;
+      case 'locations-delete':
+        include "pages/locations/locations-delete.php";
         break;
       case 'messages':
         include "pages/messages/messages.php";
@@ -354,601 +408,601 @@
 
     switch (page) {
         case "dashboard":
-            document.getElementById("menu-dashboard").classList.add("bg-indigo-900");
-            document.getElementById("menu-customers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-suppliers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-items").classList.remove("bg-indigo-900");
-            document.getElementById("menu-item-kits").classList.remove("bg-indigo-900");
-            document.getElementById("menu-categories").classList.remove("bg-indigo-900");
-            document.getElementById("menu-manufacturers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-modifiers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-tags").classList.remove("bg-indigo-900");
-            document.getElementById("menu-attributes").classList.remove("bg-indigo-900");
-            document.getElementById("menu-price-rules").classList.remove("bg-indigo-900");
-            document.getElementById("menu-reports").classList.remove("bg-indigo-900");
-            document.getElementById("menu-receiving").classList.remove("bg-indigo-900");
-            document.getElementById("menu-sales").classList.remove("bg-indigo-900");
-            document.getElementById("menu-deliveries").classList.remove("bg-indigo-900");
-            document.getElementById("menu-work-orders").classList.remove("bg-indigo-900");
-            document.getElementById("menu-expenses").classList.remove("bg-indigo-900");
-            document.getElementById("menu-appointments").classList.remove("bg-indigo-900");
-            document.getElementById("menu-employees").classList.remove("bg-indigo-900");
-            document.getElementById("menu-gift-cards").classList.remove("bg-indigo-900");
-            document.getElementById("menu-store-config").classList.remove("bg-indigo-900");
-            document.getElementById("menu-locations").classList.remove("bg-indigo-900");
-            document.getElementById("menu-messages").classList.remove("bg-indigo-900");        
+            document.getElementById("menu-dashboard").classList.add("bg-zinc-900");
+            document.getElementById("menu-customers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-suppliers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-items").classList.remove("bg-zinc-900");
+            document.getElementById("menu-item-kits").classList.remove("bg-zinc-900");
+            document.getElementById("menu-categories").classList.remove("bg-zinc-900");
+            document.getElementById("menu-manufacturers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-modifiers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-tags").classList.remove("bg-zinc-900");
+            document.getElementById("menu-attributes").classList.remove("bg-zinc-900");
+            document.getElementById("menu-price-rules").classList.remove("bg-zinc-900");
+            document.getElementById("menu-reports").classList.remove("bg-zinc-900");
+            document.getElementById("menu-receiving").classList.remove("bg-zinc-900");
+            document.getElementById("menu-sales").classList.remove("bg-zinc-900");
+            document.getElementById("menu-deliveries").classList.remove("bg-zinc-900");
+            document.getElementById("menu-work-orders").classList.remove("bg-zinc-900");
+            document.getElementById("menu-expenses").classList.remove("bg-zinc-900");
+            document.getElementById("menu-appointments").classList.remove("bg-zinc-900");
+            document.getElementById("menu-employees").classList.remove("bg-zinc-900");
+            document.getElementById("menu-gift-cards").classList.remove("bg-zinc-900");
+            document.getElementById("menu-store-config").classList.remove("bg-zinc-900");
+            document.getElementById("menu-locations").classList.remove("bg-zinc-900");
+            document.getElementById("menu-messages").classList.remove("bg-zinc-900");        
             break;
 
         case "customers":
-            document.getElementById("menu-customers").classList.add("bg-indigo-900");
-            document.getElementById("menu-dashboard").classList.remove("bg-indigo-900");
-            document.getElementById("menu-suppliers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-items").classList.remove("bg-indigo-900");
-            document.getElementById("menu-item-kits").classList.remove("bg-indigo-900");
-            document.getElementById("menu-categories").classList.remove("bg-indigo-900");
-            document.getElementById("menu-manufacturers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-modifiers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-tags").classList.remove("bg-indigo-900");
-            document.getElementById("menu-attributes").classList.remove("bg-indigo-900");
-            document.getElementById("menu-price-rules").classList.remove("bg-indigo-900");
-            document.getElementById("menu-reports").classList.remove("bg-indigo-900");
-            document.getElementById("menu-receiving").classList.remove("bg-indigo-900");
-            document.getElementById("menu-sales").classList.remove("bg-indigo-900");
-            document.getElementById("menu-deliveries").classList.remove("bg-indigo-900");
-            document.getElementById("menu-work-orders").classList.remove("bg-indigo-900");
-            document.getElementById("menu-expenses").classList.remove("bg-indigo-900");
-            document.getElementById("menu-appointments").classList.remove("bg-indigo-900");
-            document.getElementById("menu-employees").classList.remove("bg-indigo-900");
-            document.getElementById("menu-gift-cards").classList.remove("bg-indigo-900");
-            document.getElementById("menu-store-config").classList.remove("bg-indigo-900");
-            document.getElementById("menu-locations").classList.remove("bg-indigo-900");
-            document.getElementById("menu-messages").classList.remove("bg-indigo-900");    
+            document.getElementById("menu-customers").classList.add("bg-zinc-900");
+            document.getElementById("menu-dashboard").classList.remove("bg-zinc-900");
+            document.getElementById("menu-suppliers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-items").classList.remove("bg-zinc-900");
+            document.getElementById("menu-item-kits").classList.remove("bg-zinc-900");
+            document.getElementById("menu-categories").classList.remove("bg-zinc-900");
+            document.getElementById("menu-manufacturers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-modifiers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-tags").classList.remove("bg-zinc-900");
+            document.getElementById("menu-attributes").classList.remove("bg-zinc-900");
+            document.getElementById("menu-price-rules").classList.remove("bg-zinc-900");
+            document.getElementById("menu-reports").classList.remove("bg-zinc-900");
+            document.getElementById("menu-receiving").classList.remove("bg-zinc-900");
+            document.getElementById("menu-sales").classList.remove("bg-zinc-900");
+            document.getElementById("menu-deliveries").classList.remove("bg-zinc-900");
+            document.getElementById("menu-work-orders").classList.remove("bg-zinc-900");
+            document.getElementById("menu-expenses").classList.remove("bg-zinc-900");
+            document.getElementById("menu-appointments").classList.remove("bg-zinc-900");
+            document.getElementById("menu-employees").classList.remove("bg-zinc-900");
+            document.getElementById("menu-gift-cards").classList.remove("bg-zinc-900");
+            document.getElementById("menu-store-config").classList.remove("bg-zinc-900");
+            document.getElementById("menu-locations").classList.remove("bg-zinc-900");
+            document.getElementById("menu-messages").classList.remove("bg-zinc-900");    
             break;
 
         case "suppliers":
-            document.getElementById("menu-suppliers").classList.add("bg-indigo-900");
-            document.getElementById("menu-dashboard").classList.remove("bg-indigo-900");
-            document.getElementById("menu-customers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-items").classList.remove("bg-indigo-900");
-            document.getElementById("menu-item-kits").classList.remove("bg-indigo-900");
-            document.getElementById("menu-categories").classList.remove("bg-indigo-900");
-            document.getElementById("menu-manufacturers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-modifiers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-tags").classList.remove("bg-indigo-900");
-            document.getElementById("menu-attributes").classList.remove("bg-indigo-900");
-            document.getElementById("menu-price-rules").classList.remove("bg-indigo-900");
-            document.getElementById("menu-reports").classList.remove("bg-indigo-900");
-            document.getElementById("menu-receiving").classList.remove("bg-indigo-900");
-            document.getElementById("menu-sales").classList.remove("bg-indigo-900");
-            document.getElementById("menu-deliveries").classList.remove("bg-indigo-900");
-            document.getElementById("menu-work-orders").classList.remove("bg-indigo-900");
-            document.getElementById("menu-expenses").classList.remove("bg-indigo-900");
-            document.getElementById("menu-appointments").classList.remove("bg-indigo-900");
-            document.getElementById("menu-employees").classList.remove("bg-indigo-900");
-            document.getElementById("menu-gift-cards").classList.remove("bg-indigo-900");
-            document.getElementById("menu-store-config").classList.remove("bg-indigo-900");
-            document.getElementById("menu-locations").classList.remove("bg-indigo-900");
-            document.getElementById("menu-messages").classList.remove("bg-indigo-900");    
+            document.getElementById("menu-suppliers").classList.add("bg-zinc-900");
+            document.getElementById("menu-dashboard").classList.remove("bg-zinc-900");
+            document.getElementById("menu-customers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-items").classList.remove("bg-zinc-900");
+            document.getElementById("menu-item-kits").classList.remove("bg-zinc-900");
+            document.getElementById("menu-categories").classList.remove("bg-zinc-900");
+            document.getElementById("menu-manufacturers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-modifiers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-tags").classList.remove("bg-zinc-900");
+            document.getElementById("menu-attributes").classList.remove("bg-zinc-900");
+            document.getElementById("menu-price-rules").classList.remove("bg-zinc-900");
+            document.getElementById("menu-reports").classList.remove("bg-zinc-900");
+            document.getElementById("menu-receiving").classList.remove("bg-zinc-900");
+            document.getElementById("menu-sales").classList.remove("bg-zinc-900");
+            document.getElementById("menu-deliveries").classList.remove("bg-zinc-900");
+            document.getElementById("menu-work-orders").classList.remove("bg-zinc-900");
+            document.getElementById("menu-expenses").classList.remove("bg-zinc-900");
+            document.getElementById("menu-appointments").classList.remove("bg-zinc-900");
+            document.getElementById("menu-employees").classList.remove("bg-zinc-900");
+            document.getElementById("menu-gift-cards").classList.remove("bg-zinc-900");
+            document.getElementById("menu-store-config").classList.remove("bg-zinc-900");
+            document.getElementById("menu-locations").classList.remove("bg-zinc-900");
+            document.getElementById("menu-messages").classList.remove("bg-zinc-900");    
             break;
 
         case "items":
-            document.getElementById("menu-items").classList.add("bg-indigo-900");
-            document.getElementById("menu-dashboard").classList.remove("bg-indigo-900");
-            document.getElementById("menu-customers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-suppliers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-item-kits").classList.remove("bg-indigo-900");
-            document.getElementById("menu-categories").classList.remove("bg-indigo-900");
-            document.getElementById("menu-manufacturers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-modifiers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-tags").classList.remove("bg-indigo-900");
-            document.getElementById("menu-attributes").classList.remove("bg-indigo-900");
-            document.getElementById("menu-price-rules").classList.remove("bg-indigo-900");
-            document.getElementById("menu-reports").classList.remove("bg-indigo-900");
-            document.getElementById("menu-receiving").classList.remove("bg-indigo-900");
-            document.getElementById("menu-sales").classList.remove("bg-indigo-900");
-            document.getElementById("menu-deliveries").classList.remove("bg-indigo-900");
-            document.getElementById("menu-work-orders").classList.remove("bg-indigo-900");
-            document.getElementById("menu-expenses").classList.remove("bg-indigo-900");
-            document.getElementById("menu-appointments").classList.remove("bg-indigo-900");
-            document.getElementById("menu-employees").classList.remove("bg-indigo-900");
-            document.getElementById("menu-gift-cards").classList.remove("bg-indigo-900");
-            document.getElementById("menu-store-config").classList.remove("bg-indigo-900");
-            document.getElementById("menu-locations").classList.remove("bg-indigo-900");
-            document.getElementById("menu-messages").classList.remove("bg-indigo-900");    
+            document.getElementById("menu-items").classList.add("bg-zinc-900");
+            document.getElementById("menu-dashboard").classList.remove("bg-zinc-900");
+            document.getElementById("menu-customers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-suppliers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-item-kits").classList.remove("bg-zinc-900");
+            document.getElementById("menu-categories").classList.remove("bg-zinc-900");
+            document.getElementById("menu-manufacturers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-modifiers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-tags").classList.remove("bg-zinc-900");
+            document.getElementById("menu-attributes").classList.remove("bg-zinc-900");
+            document.getElementById("menu-price-rules").classList.remove("bg-zinc-900");
+            document.getElementById("menu-reports").classList.remove("bg-zinc-900");
+            document.getElementById("menu-receiving").classList.remove("bg-zinc-900");
+            document.getElementById("menu-sales").classList.remove("bg-zinc-900");
+            document.getElementById("menu-deliveries").classList.remove("bg-zinc-900");
+            document.getElementById("menu-work-orders").classList.remove("bg-zinc-900");
+            document.getElementById("menu-expenses").classList.remove("bg-zinc-900");
+            document.getElementById("menu-appointments").classList.remove("bg-zinc-900");
+            document.getElementById("menu-employees").classList.remove("bg-zinc-900");
+            document.getElementById("menu-gift-cards").classList.remove("bg-zinc-900");
+            document.getElementById("menu-store-config").classList.remove("bg-zinc-900");
+            document.getElementById("menu-locations").classList.remove("bg-zinc-900");
+            document.getElementById("menu-messages").classList.remove("bg-zinc-900");    
             break;
 
         case "item-kits":
-            document.getElementById("menu-item-kits").classList.add("bg-indigo-900");
-            document.getElementById("menu-dashboard").classList.remove("bg-indigo-900");
-            document.getElementById("menu-customers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-suppliers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-items").classList.remove("bg-indigo-900");
-            document.getElementById("menu-categories").classList.remove("bg-indigo-900");
-            document.getElementById("menu-manufacturers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-modifiers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-tags").classList.remove("bg-indigo-900");
-            document.getElementById("menu-attributes").classList.remove("bg-indigo-900");
-            document.getElementById("menu-price-rules").classList.remove("bg-indigo-900");
-            document.getElementById("menu-reports").classList.remove("bg-indigo-900");
-            document.getElementById("menu-receiving").classList.remove("bg-indigo-900");
-            document.getElementById("menu-sales").classList.remove("bg-indigo-900");
-            document.getElementById("menu-deliveries").classList.remove("bg-indigo-900");
-            document.getElementById("menu-work-orders").classList.remove("bg-indigo-900");
-            document.getElementById("menu-expenses").classList.remove("bg-indigo-900");
-            document.getElementById("menu-appointments").classList.remove("bg-indigo-900");
-            document.getElementById("menu-employees").classList.remove("bg-indigo-900");
-            document.getElementById("menu-gift-cards").classList.remove("bg-indigo-900");
-            document.getElementById("menu-store-config").classList.remove("bg-indigo-900");
-            document.getElementById("menu-locations").classList.remove("bg-indigo-900");
-            document.getElementById("menu-messages").classList.remove("bg-indigo-900");    
+            document.getElementById("menu-item-kits").classList.add("bg-zinc-900");
+            document.getElementById("menu-dashboard").classList.remove("bg-zinc-900");
+            document.getElementById("menu-customers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-suppliers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-items").classList.remove("bg-zinc-900");
+            document.getElementById("menu-categories").classList.remove("bg-zinc-900");
+            document.getElementById("menu-manufacturers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-modifiers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-tags").classList.remove("bg-zinc-900");
+            document.getElementById("menu-attributes").classList.remove("bg-zinc-900");
+            document.getElementById("menu-price-rules").classList.remove("bg-zinc-900");
+            document.getElementById("menu-reports").classList.remove("bg-zinc-900");
+            document.getElementById("menu-receiving").classList.remove("bg-zinc-900");
+            document.getElementById("menu-sales").classList.remove("bg-zinc-900");
+            document.getElementById("menu-deliveries").classList.remove("bg-zinc-900");
+            document.getElementById("menu-work-orders").classList.remove("bg-zinc-900");
+            document.getElementById("menu-expenses").classList.remove("bg-zinc-900");
+            document.getElementById("menu-appointments").classList.remove("bg-zinc-900");
+            document.getElementById("menu-employees").classList.remove("bg-zinc-900");
+            document.getElementById("menu-gift-cards").classList.remove("bg-zinc-900");
+            document.getElementById("menu-store-config").classList.remove("bg-zinc-900");
+            document.getElementById("menu-locations").classList.remove("bg-zinc-900");
+            document.getElementById("menu-messages").classList.remove("bg-zinc-900");    
             break;
 
         case "categories":
-            document.getElementById("menu-categories").classList.add("bg-indigo-900");
-            document.getElementById("menu-dashboard").classList.remove("bg-indigo-900");
-            document.getElementById("menu-customers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-suppliers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-items").classList.remove("bg-indigo-900");
-            document.getElementById("menu-items-kits").classList.remove("bg-indigo-900");
-            document.getElementById("menu-manufacturers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-modifiers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-tags").classList.remove("bg-indigo-900");
-            document.getElementById("menu-attributes").classList.remove("bg-indigo-900");
-            document.getElementById("menu-price-rules").classList.remove("bg-indigo-900");
-            document.getElementById("menu-reports").classList.remove("bg-indigo-900");
-            document.getElementById("menu-receiving").classList.remove("bg-indigo-900");
-            document.getElementById("menu-sales").classList.remove("bg-indigo-900");
-            document.getElementById("menu-deliveries").classList.remove("bg-indigo-900");
-            document.getElementById("menu-work-orders").classList.remove("bg-indigo-900");
-            document.getElementById("menu-expenses").classList.remove("bg-indigo-900");
-            document.getElementById("menu-appointments").classList.remove("bg-indigo-900");
-            document.getElementById("menu-employees").classList.remove("bg-indigo-900");
-            document.getElementById("menu-gift-cards").classList.remove("bg-indigo-900");
-            document.getElementById("menu-store-config").classList.remove("bg-indigo-900");
-            document.getElementById("menu-locations").classList.remove("bg-indigo-900");
-            document.getElementById("menu-messages").classList.remove("bg-indigo-900");    
+            document.getElementById("menu-categories").classList.add("bg-zinc-900");
+            document.getElementById("menu-dashboard").classList.remove("bg-zinc-900");
+            document.getElementById("menu-customers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-suppliers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-items").classList.remove("bg-zinc-900");
+            document.getElementById("menu-items-kits").classList.remove("bg-zinc-900");
+            document.getElementById("menu-manufacturers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-modifiers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-tags").classList.remove("bg-zinc-900");
+            document.getElementById("menu-attributes").classList.remove("bg-zinc-900");
+            document.getElementById("menu-price-rules").classList.remove("bg-zinc-900");
+            document.getElementById("menu-reports").classList.remove("bg-zinc-900");
+            document.getElementById("menu-receiving").classList.remove("bg-zinc-900");
+            document.getElementById("menu-sales").classList.remove("bg-zinc-900");
+            document.getElementById("menu-deliveries").classList.remove("bg-zinc-900");
+            document.getElementById("menu-work-orders").classList.remove("bg-zinc-900");
+            document.getElementById("menu-expenses").classList.remove("bg-zinc-900");
+            document.getElementById("menu-appointments").classList.remove("bg-zinc-900");
+            document.getElementById("menu-employees").classList.remove("bg-zinc-900");
+            document.getElementById("menu-gift-cards").classList.remove("bg-zinc-900");
+            document.getElementById("menu-store-config").classList.remove("bg-zinc-900");
+            document.getElementById("menu-locations").classList.remove("bg-zinc-900");
+            document.getElementById("menu-messages").classList.remove("bg-zinc-900");    
             break;
 
         case "manufacturers":
-            document.getElementById("menu-manufacturers").classList.add("bg-indigo-900");
-            document.getElementById("menu-dashboard").classList.remove("bg-indigo-900");
-            document.getElementById("menu-customers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-suppliers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-items").classList.remove("bg-indigo-900");
-            document.getElementById("menu-categories").classList.remove("bg-indigo-900");
-            document.getElementById("menu-item-kits").classList.remove("bg-indigo-900");
-            document.getElementById("menu-modifiers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-tags").classList.remove("bg-indigo-900");
-            document.getElementById("menu-attributes").classList.remove("bg-indigo-900");
-            document.getElementById("menu-price-rules").classList.remove("bg-indigo-900");
-            document.getElementById("menu-reports").classList.remove("bg-indigo-900");
-            document.getElementById("menu-receiving").classList.remove("bg-indigo-900");
-            document.getElementById("menu-sales").classList.remove("bg-indigo-900");
-            document.getElementById("menu-deliveries").classList.remove("bg-indigo-900");
-            document.getElementById("menu-work-orders").classList.remove("bg-indigo-900");
-            document.getElementById("menu-expenses").classList.remove("bg-indigo-900");
-            document.getElementById("menu-appointments").classList.remove("bg-indigo-900");
-            document.getElementById("menu-employees").classList.remove("bg-indigo-900");
-            document.getElementById("menu-gift-cards").classList.remove("bg-indigo-900");
-            document.getElementById("menu-store-config").classList.remove("bg-indigo-900");
-            document.getElementById("menu-locations").classList.remove("bg-indigo-900");
-            document.getElementById("menu-messages").classList.remove("bg-indigo-900");    
+            document.getElementById("menu-manufacturers").classList.add("bg-zinc-900");
+            document.getElementById("menu-dashboard").classList.remove("bg-zinc-900");
+            document.getElementById("menu-customers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-suppliers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-items").classList.remove("bg-zinc-900");
+            document.getElementById("menu-categories").classList.remove("bg-zinc-900");
+            document.getElementById("menu-item-kits").classList.remove("bg-zinc-900");
+            document.getElementById("menu-modifiers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-tags").classList.remove("bg-zinc-900");
+            document.getElementById("menu-attributes").classList.remove("bg-zinc-900");
+            document.getElementById("menu-price-rules").classList.remove("bg-zinc-900");
+            document.getElementById("menu-reports").classList.remove("bg-zinc-900");
+            document.getElementById("menu-receiving").classList.remove("bg-zinc-900");
+            document.getElementById("menu-sales").classList.remove("bg-zinc-900");
+            document.getElementById("menu-deliveries").classList.remove("bg-zinc-900");
+            document.getElementById("menu-work-orders").classList.remove("bg-zinc-900");
+            document.getElementById("menu-expenses").classList.remove("bg-zinc-900");
+            document.getElementById("menu-appointments").classList.remove("bg-zinc-900");
+            document.getElementById("menu-employees").classList.remove("bg-zinc-900");
+            document.getElementById("menu-gift-cards").classList.remove("bg-zinc-900");
+            document.getElementById("menu-store-config").classList.remove("bg-zinc-900");
+            document.getElementById("menu-locations").classList.remove("bg-zinc-900");
+            document.getElementById("menu-messages").classList.remove("bg-zinc-900");    
             break;
 
         case "modifiers":
-            document.getElementById("menu-modifiers").classList.add("bg-indigo-900");
-            document.getElementById("menu-dashboard").classList.remove("bg-indigo-900");
-            document.getElementById("menu-customers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-suppliers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-items").classList.remove("bg-indigo-900");
-            document.getElementById("menu-categories").classList.remove("bg-indigo-900");
-            document.getElementById("menu-item-kits").classList.remove("bg-indigo-900");
-            document.getElementById("menu-manufacturers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-tags").classList.remove("bg-indigo-900");
-            document.getElementById("menu-attributes").classList.remove("bg-indigo-900");
-            document.getElementById("menu-price-rules").classList.remove("bg-indigo-900");
-            document.getElementById("menu-reports").classList.remove("bg-indigo-900");
-            document.getElementById("menu-receiving").classList.remove("bg-indigo-900");
-            document.getElementById("menu-sales").classList.remove("bg-indigo-900");
-            document.getElementById("menu-deliveries").classList.remove("bg-indigo-900");
-            document.getElementById("menu-work-orders").classList.remove("bg-indigo-900");
-            document.getElementById("menu-expenses").classList.remove("bg-indigo-900");
-            document.getElementById("menu-appointments").classList.remove("bg-indigo-900");
-            document.getElementById("menu-employees").classList.remove("bg-indigo-900");
-            document.getElementById("menu-gift-cards").classList.remove("bg-indigo-900");
-            document.getElementById("menu-store-config").classList.remove("bg-indigo-900");
-            document.getElementById("menu-locations").classList.remove("bg-indigo-900");
-            document.getElementById("menu-messages").classList.remove("bg-indigo-900");    
+            document.getElementById("menu-modifiers").classList.add("bg-zinc-900");
+            document.getElementById("menu-dashboard").classList.remove("bg-zinc-900");
+            document.getElementById("menu-customers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-suppliers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-items").classList.remove("bg-zinc-900");
+            document.getElementById("menu-categories").classList.remove("bg-zinc-900");
+            document.getElementById("menu-item-kits").classList.remove("bg-zinc-900");
+            document.getElementById("menu-manufacturers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-tags").classList.remove("bg-zinc-900");
+            document.getElementById("menu-attributes").classList.remove("bg-zinc-900");
+            document.getElementById("menu-price-rules").classList.remove("bg-zinc-900");
+            document.getElementById("menu-reports").classList.remove("bg-zinc-900");
+            document.getElementById("menu-receiving").classList.remove("bg-zinc-900");
+            document.getElementById("menu-sales").classList.remove("bg-zinc-900");
+            document.getElementById("menu-deliveries").classList.remove("bg-zinc-900");
+            document.getElementById("menu-work-orders").classList.remove("bg-zinc-900");
+            document.getElementById("menu-expenses").classList.remove("bg-zinc-900");
+            document.getElementById("menu-appointments").classList.remove("bg-zinc-900");
+            document.getElementById("menu-employees").classList.remove("bg-zinc-900");
+            document.getElementById("menu-gift-cards").classList.remove("bg-zinc-900");
+            document.getElementById("menu-store-config").classList.remove("bg-zinc-900");
+            document.getElementById("menu-locations").classList.remove("bg-zinc-900");
+            document.getElementById("menu-messages").classList.remove("bg-zinc-900");    
             break;
 
         case "tags":
-            document.getElementById("menu-tags").classList.add("bg-indigo-900");
-            document.getElementById("menu-dashboard").classList.remove("bg-indigo-900");
-            document.getElementById("menu-customers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-suppliers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-item-kits").classList.remove("bg-indigo-900");
-            document.getElementById("menu-categories").classList.remove("bg-indigo-900");
-            document.getElementById("menu-manufacturers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-modifiers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-items").classList.remove("bg-indigo-900");
-            document.getElementById("menu-attributes").classList.remove("bg-indigo-900");
-            document.getElementById("menu-price-rules").classList.remove("bg-indigo-900");
-            document.getElementById("menu-reports").classList.remove("bg-indigo-900");
-            document.getElementById("menu-receiving").classList.remove("bg-indigo-900");
-            document.getElementById("menu-sales").classList.remove("bg-indigo-900");
-            document.getElementById("menu-deliveries").classList.remove("bg-indigo-900");
-            document.getElementById("menu-work-orders").classList.remove("bg-indigo-900");
-            document.getElementById("menu-expenses").classList.remove("bg-indigo-900");
-            document.getElementById("menu-appointments").classList.remove("bg-indigo-900");
-            document.getElementById("menu-employees").classList.remove("bg-indigo-900");
-            document.getElementById("menu-gift-cards").classList.remove("bg-indigo-900");
-            document.getElementById("menu-store-config").classList.remove("bg-indigo-900");
-            document.getElementById("menu-locations").classList.remove("bg-indigo-900");
-            document.getElementById("menu-messages").classList.remove("bg-indigo-900");    
+            document.getElementById("menu-tags").classList.add("bg-zinc-900");
+            document.getElementById("menu-dashboard").classList.remove("bg-zinc-900");
+            document.getElementById("menu-customers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-suppliers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-item-kits").classList.remove("bg-zinc-900");
+            document.getElementById("menu-categories").classList.remove("bg-zinc-900");
+            document.getElementById("menu-manufacturers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-modifiers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-items").classList.remove("bg-zinc-900");
+            document.getElementById("menu-attributes").classList.remove("bg-zinc-900");
+            document.getElementById("menu-price-rules").classList.remove("bg-zinc-900");
+            document.getElementById("menu-reports").classList.remove("bg-zinc-900");
+            document.getElementById("menu-receiving").classList.remove("bg-zinc-900");
+            document.getElementById("menu-sales").classList.remove("bg-zinc-900");
+            document.getElementById("menu-deliveries").classList.remove("bg-zinc-900");
+            document.getElementById("menu-work-orders").classList.remove("bg-zinc-900");
+            document.getElementById("menu-expenses").classList.remove("bg-zinc-900");
+            document.getElementById("menu-appointments").classList.remove("bg-zinc-900");
+            document.getElementById("menu-employees").classList.remove("bg-zinc-900");
+            document.getElementById("menu-gift-cards").classList.remove("bg-zinc-900");
+            document.getElementById("menu-store-config").classList.remove("bg-zinc-900");
+            document.getElementById("menu-locations").classList.remove("bg-zinc-900");
+            document.getElementById("menu-messages").classList.remove("bg-zinc-900");    
             break;
 
         case "attributes":
-            document.getElementById("menu-attributes").classList.add("bg-indigo-900");
-            document.getElementById("menu-dashboard").classList.remove("bg-indigo-900");
-            document.getElementById("menu-customers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-suppliers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-item-kits").classList.remove("bg-indigo-900");
-            document.getElementById("menu-categories").classList.remove("bg-indigo-900");
-            document.getElementById("menu-manufacturers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-modifiers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-tags").classList.remove("bg-indigo-900");
-            document.getElementById("menu-items").classList.remove("bg-indigo-900");
-            document.getElementById("menu-price-rules").classList.remove("bg-indigo-900");
-            document.getElementById("menu-reports").classList.remove("bg-indigo-900");
-            document.getElementById("menu-receiving").classList.remove("bg-indigo-900");
-            document.getElementById("menu-sales").classList.remove("bg-indigo-900");
-            document.getElementById("menu-deliveries").classList.remove("bg-indigo-900");
-            document.getElementById("menu-work-orders").classList.remove("bg-indigo-900");
-            document.getElementById("menu-expenses").classList.remove("bg-indigo-900");
-            document.getElementById("menu-appointments").classList.remove("bg-indigo-900");
-            document.getElementById("menu-employees").classList.remove("bg-indigo-900");
-            document.getElementById("menu-gift-cards").classList.remove("bg-indigo-900");
-            document.getElementById("menu-store-config").classList.remove("bg-indigo-900");
-            document.getElementById("menu-locations").classList.remove("bg-indigo-900");
-            document.getElementById("menu-messages").classList.remove("bg-indigo-900");    
+            document.getElementById("menu-attributes").classList.add("bg-zinc-900");
+            document.getElementById("menu-dashboard").classList.remove("bg-zinc-900");
+            document.getElementById("menu-customers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-suppliers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-item-kits").classList.remove("bg-zinc-900");
+            document.getElementById("menu-categories").classList.remove("bg-zinc-900");
+            document.getElementById("menu-manufacturers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-modifiers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-tags").classList.remove("bg-zinc-900");
+            document.getElementById("menu-items").classList.remove("bg-zinc-900");
+            document.getElementById("menu-price-rules").classList.remove("bg-zinc-900");
+            document.getElementById("menu-reports").classList.remove("bg-zinc-900");
+            document.getElementById("menu-receiving").classList.remove("bg-zinc-900");
+            document.getElementById("menu-sales").classList.remove("bg-zinc-900");
+            document.getElementById("menu-deliveries").classList.remove("bg-zinc-900");
+            document.getElementById("menu-work-orders").classList.remove("bg-zinc-900");
+            document.getElementById("menu-expenses").classList.remove("bg-zinc-900");
+            document.getElementById("menu-appointments").classList.remove("bg-zinc-900");
+            document.getElementById("menu-employees").classList.remove("bg-zinc-900");
+            document.getElementById("menu-gift-cards").classList.remove("bg-zinc-900");
+            document.getElementById("menu-store-config").classList.remove("bg-zinc-900");
+            document.getElementById("menu-locations").classList.remove("bg-zinc-900");
+            document.getElementById("menu-messages").classList.remove("bg-zinc-900");    
             break;
 
         case "price-rules":
-            document.getElementById("menu-price-rules").classList.add("bg-indigo-900");
-            document.getElementById("menu-dashboard").classList.remove("bg-indigo-900");
-            document.getElementById("menu-customers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-suppliers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-item-kits").classList.remove("bg-indigo-900");
-            document.getElementById("menu-categories").classList.remove("bg-indigo-900");
-            document.getElementById("menu-manufacturers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-modifiers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-tags").classList.remove("bg-indigo-900");
-            document.getElementById("menu-attributes").classList.remove("bg-indigo-900");
-            document.getElementById("menu-items").classList.remove("bg-indigo-900");
-            document.getElementById("menu-reports").classList.remove("bg-indigo-900");
-            document.getElementById("menu-receiving").classList.remove("bg-indigo-900");
-            document.getElementById("menu-sales").classList.remove("bg-indigo-900");
-            document.getElementById("menu-deliveries").classList.remove("bg-indigo-900");
-            document.getElementById("menu-work-orders").classList.remove("bg-indigo-900");
-            document.getElementById("menu-expenses").classList.remove("bg-indigo-900");
-            document.getElementById("menu-appointments").classList.remove("bg-indigo-900");
-            document.getElementById("menu-employees").classList.remove("bg-indigo-900");
-            document.getElementById("menu-gift-cards").classList.remove("bg-indigo-900");
-            document.getElementById("menu-store-config").classList.remove("bg-indigo-900");
-            document.getElementById("menu-locations").classList.remove("bg-indigo-900");
-            document.getElementById("menu-messages").classList.remove("bg-indigo-900");    
+            document.getElementById("menu-price-rules").classList.add("bg-zinc-900");
+            document.getElementById("menu-dashboard").classList.remove("bg-zinc-900");
+            document.getElementById("menu-customers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-suppliers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-item-kits").classList.remove("bg-zinc-900");
+            document.getElementById("menu-categories").classList.remove("bg-zinc-900");
+            document.getElementById("menu-manufacturers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-modifiers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-tags").classList.remove("bg-zinc-900");
+            document.getElementById("menu-attributes").classList.remove("bg-zinc-900");
+            document.getElementById("menu-items").classList.remove("bg-zinc-900");
+            document.getElementById("menu-reports").classList.remove("bg-zinc-900");
+            document.getElementById("menu-receiving").classList.remove("bg-zinc-900");
+            document.getElementById("menu-sales").classList.remove("bg-zinc-900");
+            document.getElementById("menu-deliveries").classList.remove("bg-zinc-900");
+            document.getElementById("menu-work-orders").classList.remove("bg-zinc-900");
+            document.getElementById("menu-expenses").classList.remove("bg-zinc-900");
+            document.getElementById("menu-appointments").classList.remove("bg-zinc-900");
+            document.getElementById("menu-employees").classList.remove("bg-zinc-900");
+            document.getElementById("menu-gift-cards").classList.remove("bg-zinc-900");
+            document.getElementById("menu-store-config").classList.remove("bg-zinc-900");
+            document.getElementById("menu-locations").classList.remove("bg-zinc-900");
+            document.getElementById("menu-messages").classList.remove("bg-zinc-900");    
             break;
 
         case "reports":
-            document.getElementById("menu-reports").classList.add("bg-indigo-900");
-            document.getElementById("menu-dashboard").classList.remove("bg-indigo-900");
-            document.getElementById("menu-customers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-suppliers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-item-kits").classList.remove("bg-indigo-900");
-            document.getElementById("menu-categories").classList.remove("bg-indigo-900");
-            document.getElementById("menu-manufacturers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-modifiers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-tags").classList.remove("bg-indigo-900");
-            document.getElementById("menu-attributes").classList.remove("bg-indigo-900");
-            document.getElementById("menu-price-rules").classList.remove("bg-indigo-900");
-            document.getElementById("menu-items").classList.remove("bg-indigo-900");
-            document.getElementById("menu-receiving").classList.remove("bg-indigo-900");
-            document.getElementById("menu-sales").classList.remove("bg-indigo-900");
-            document.getElementById("menu-deliveries").classList.remove("bg-indigo-900");
-            document.getElementById("menu-work-orders").classList.remove("bg-indigo-900");
-            document.getElementById("menu-expenses").classList.remove("bg-indigo-900");
-            document.getElementById("menu-appointments").classList.remove("bg-indigo-900");
-            document.getElementById("menu-employees").classList.remove("bg-indigo-900");
-            document.getElementById("menu-gift-cards").classList.remove("bg-indigo-900");
-            document.getElementById("menu-store-config").classList.remove("bg-indigo-900");
-            document.getElementById("menu-locations").classList.remove("bg-indigo-900");
-            document.getElementById("menu-messages").classList.remove("bg-indigo-900");    
+            document.getElementById("menu-reports").classList.add("bg-zinc-900");
+            document.getElementById("menu-dashboard").classList.remove("bg-zinc-900");
+            document.getElementById("menu-customers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-suppliers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-item-kits").classList.remove("bg-zinc-900");
+            document.getElementById("menu-categories").classList.remove("bg-zinc-900");
+            document.getElementById("menu-manufacturers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-modifiers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-tags").classList.remove("bg-zinc-900");
+            document.getElementById("menu-attributes").classList.remove("bg-zinc-900");
+            document.getElementById("menu-price-rules").classList.remove("bg-zinc-900");
+            document.getElementById("menu-items").classList.remove("bg-zinc-900");
+            document.getElementById("menu-receiving").classList.remove("bg-zinc-900");
+            document.getElementById("menu-sales").classList.remove("bg-zinc-900");
+            document.getElementById("menu-deliveries").classList.remove("bg-zinc-900");
+            document.getElementById("menu-work-orders").classList.remove("bg-zinc-900");
+            document.getElementById("menu-expenses").classList.remove("bg-zinc-900");
+            document.getElementById("menu-appointments").classList.remove("bg-zinc-900");
+            document.getElementById("menu-employees").classList.remove("bg-zinc-900");
+            document.getElementById("menu-gift-cards").classList.remove("bg-zinc-900");
+            document.getElementById("menu-store-config").classList.remove("bg-zinc-900");
+            document.getElementById("menu-locations").classList.remove("bg-zinc-900");
+            document.getElementById("menu-messages").classList.remove("bg-zinc-900");    
             break;
 
         case "receiving":
-            document.getElementById("menu-receiving").classList.add("bg-indigo-900");
-            document.getElementById("menu-dashboard").classList.remove("bg-indigo-900");
-            document.getElementById("menu-customers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-suppliers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-item-kits").classList.remove("bg-indigo-900");
-            document.getElementById("menu-categories").classList.remove("bg-indigo-900");
-            document.getElementById("menu-manufacturers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-modifiers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-tags").classList.remove("bg-indigo-900");
-            document.getElementById("menu-attributes").classList.remove("bg-indigo-900");
-            document.getElementById("menu-price-rules").classList.remove("bg-indigo-900");
-            document.getElementById("menu-reports").classList.remove("bg-indigo-900");
-            document.getElementById("menu-items").classList.remove("bg-indigo-900");
-            document.getElementById("menu-sales").classList.remove("bg-indigo-900");
-            document.getElementById("menu-deliveries").classList.remove("bg-indigo-900");
-            document.getElementById("menu-work-orders").classList.remove("bg-indigo-900");
-            document.getElementById("menu-expenses").classList.remove("bg-indigo-900");
-            document.getElementById("menu-appointments").classList.remove("bg-indigo-900");
-            document.getElementById("menu-employees").classList.remove("bg-indigo-900");
-            document.getElementById("menu-gift-cards").classList.remove("bg-indigo-900");
-            document.getElementById("menu-store-config").classList.remove("bg-indigo-900");
-            document.getElementById("menu-locations").classList.remove("bg-indigo-900");
-            document.getElementById("menu-messages").classList.remove("bg-indigo-900");    
+            document.getElementById("menu-receiving").classList.add("bg-zinc-900");
+            document.getElementById("menu-dashboard").classList.remove("bg-zinc-900");
+            document.getElementById("menu-customers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-suppliers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-item-kits").classList.remove("bg-zinc-900");
+            document.getElementById("menu-categories").classList.remove("bg-zinc-900");
+            document.getElementById("menu-manufacturers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-modifiers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-tags").classList.remove("bg-zinc-900");
+            document.getElementById("menu-attributes").classList.remove("bg-zinc-900");
+            document.getElementById("menu-price-rules").classList.remove("bg-zinc-900");
+            document.getElementById("menu-reports").classList.remove("bg-zinc-900");
+            document.getElementById("menu-items").classList.remove("bg-zinc-900");
+            document.getElementById("menu-sales").classList.remove("bg-zinc-900");
+            document.getElementById("menu-deliveries").classList.remove("bg-zinc-900");
+            document.getElementById("menu-work-orders").classList.remove("bg-zinc-900");
+            document.getElementById("menu-expenses").classList.remove("bg-zinc-900");
+            document.getElementById("menu-appointments").classList.remove("bg-zinc-900");
+            document.getElementById("menu-employees").classList.remove("bg-zinc-900");
+            document.getElementById("menu-gift-cards").classList.remove("bg-zinc-900");
+            document.getElementById("menu-store-config").classList.remove("bg-zinc-900");
+            document.getElementById("menu-locations").classList.remove("bg-zinc-900");
+            document.getElementById("menu-messages").classList.remove("bg-zinc-900");    
             break;
 
         case "sales":
-            document.getElementById("menu-sales").classList.add("bg-indigo-900");
-            document.getElementById("menu-dashboard").classList.remove("bg-indigo-900");
-            document.getElementById("menu-customers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-suppliers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-item-kits").classList.remove("bg-indigo-900");
-            document.getElementById("menu-categories").classList.remove("bg-indigo-900");
-            document.getElementById("menu-manufacturers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-modifiers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-tags").classList.remove("bg-indigo-900");
-            document.getElementById("menu-attributes").classList.remove("bg-indigo-900");
-            document.getElementById("menu-price-rules").classList.remove("bg-indigo-900");
-            document.getElementById("menu-reports").classList.remove("bg-indigo-900");
-            document.getElementById("menu-receiving").classList.remove("bg-indigo-900");
-            document.getElementById("menu-items").classList.remove("bg-indigo-900");
-            document.getElementById("menu-deliveries").classList.remove("bg-indigo-900");
-            document.getElementById("menu-work-orders").classList.remove("bg-indigo-900");
-            document.getElementById("menu-expenses").classList.remove("bg-indigo-900");
-            document.getElementById("menu-appointments").classList.remove("bg-indigo-900");
-            document.getElementById("menu-employees").classList.remove("bg-indigo-900");
-            document.getElementById("menu-gift-cards").classList.remove("bg-indigo-900");
-            document.getElementById("menu-store-config").classList.remove("bg-indigo-900");
-            document.getElementById("menu-locations").classList.remove("bg-indigo-900");
-            document.getElementById("menu-messages").classList.remove("bg-indigo-900");    
+            document.getElementById("menu-sales").classList.add("bg-zinc-900");
+            document.getElementById("menu-dashboard").classList.remove("bg-zinc-900");
+            document.getElementById("menu-customers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-suppliers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-item-kits").classList.remove("bg-zinc-900");
+            document.getElementById("menu-categories").classList.remove("bg-zinc-900");
+            document.getElementById("menu-manufacturers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-modifiers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-tags").classList.remove("bg-zinc-900");
+            document.getElementById("menu-attributes").classList.remove("bg-zinc-900");
+            document.getElementById("menu-price-rules").classList.remove("bg-zinc-900");
+            document.getElementById("menu-reports").classList.remove("bg-zinc-900");
+            document.getElementById("menu-receiving").classList.remove("bg-zinc-900");
+            document.getElementById("menu-items").classList.remove("bg-zinc-900");
+            document.getElementById("menu-deliveries").classList.remove("bg-zinc-900");
+            document.getElementById("menu-work-orders").classList.remove("bg-zinc-900");
+            document.getElementById("menu-expenses").classList.remove("bg-zinc-900");
+            document.getElementById("menu-appointments").classList.remove("bg-zinc-900");
+            document.getElementById("menu-employees").classList.remove("bg-zinc-900");
+            document.getElementById("menu-gift-cards").classList.remove("bg-zinc-900");
+            document.getElementById("menu-store-config").classList.remove("bg-zinc-900");
+            document.getElementById("menu-locations").classList.remove("bg-zinc-900");
+            document.getElementById("menu-messages").classList.remove("bg-zinc-900");    
             break;
 
         case "deliveries":
-            document.getElementById("menu-deliveries").classList.add("bg-indigo-900");
-            document.getElementById("menu-dashboard").classList.remove("bg-indigo-900");
-            document.getElementById("menu-customers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-suppliers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-item-kits").classList.remove("bg-indigo-900");
-            document.getElementById("menu-categories").classList.remove("bg-indigo-900");
-            document.getElementById("menu-manufacturers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-modifiers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-tags").classList.remove("bg-indigo-900");
-            document.getElementById("menu-attributes").classList.remove("bg-indigo-900");
-            document.getElementById("menu-price-rules").classList.remove("bg-indigo-900");
-            document.getElementById("menu-reports").classList.remove("bg-indigo-900");
-            document.getElementById("menu-receiving").classList.remove("bg-indigo-900");
-            document.getElementById("menu-sales").classList.remove("bg-indigo-900");
-            document.getElementById("menu-items").classList.remove("bg-indigo-900");
-            document.getElementById("menu-work-orders").classList.remove("bg-indigo-900");
-            document.getElementById("menu-expenses").classList.remove("bg-indigo-900");
-            document.getElementById("menu-appointments").classList.remove("bg-indigo-900");
-            document.getElementById("menu-employees").classList.remove("bg-indigo-900");
-            document.getElementById("menu-gift-cards").classList.remove("bg-indigo-900");
-            document.getElementById("menu-store-config").classList.remove("bg-indigo-900");
-            document.getElementById("menu-locations").classList.remove("bg-indigo-900");
-            document.getElementById("menu-messages").classList.remove("bg-indigo-900");    
+            document.getElementById("menu-deliveries").classList.add("bg-zinc-900");
+            document.getElementById("menu-dashboard").classList.remove("bg-zinc-900");
+            document.getElementById("menu-customers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-suppliers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-item-kits").classList.remove("bg-zinc-900");
+            document.getElementById("menu-categories").classList.remove("bg-zinc-900");
+            document.getElementById("menu-manufacturers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-modifiers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-tags").classList.remove("bg-zinc-900");
+            document.getElementById("menu-attributes").classList.remove("bg-zinc-900");
+            document.getElementById("menu-price-rules").classList.remove("bg-zinc-900");
+            document.getElementById("menu-reports").classList.remove("bg-zinc-900");
+            document.getElementById("menu-receiving").classList.remove("bg-zinc-900");
+            document.getElementById("menu-sales").classList.remove("bg-zinc-900");
+            document.getElementById("menu-items").classList.remove("bg-zinc-900");
+            document.getElementById("menu-work-orders").classList.remove("bg-zinc-900");
+            document.getElementById("menu-expenses").classList.remove("bg-zinc-900");
+            document.getElementById("menu-appointments").classList.remove("bg-zinc-900");
+            document.getElementById("menu-employees").classList.remove("bg-zinc-900");
+            document.getElementById("menu-gift-cards").classList.remove("bg-zinc-900");
+            document.getElementById("menu-store-config").classList.remove("bg-zinc-900");
+            document.getElementById("menu-locations").classList.remove("bg-zinc-900");
+            document.getElementById("menu-messages").classList.remove("bg-zinc-900");    
             break;
 
         case "work-orders":
-            document.getElementById("menu-work-orders").classList.add("bg-indigo-900");
-            document.getElementById("menu-dashboard").classList.remove("bg-indigo-900");
-            document.getElementById("menu-customers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-suppliers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-item-kits").classList.remove("bg-indigo-900");
-            document.getElementById("menu-categories").classList.remove("bg-indigo-900");
-            document.getElementById("menu-manufacturers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-modifiers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-tags").classList.remove("bg-indigo-900");
-            document.getElementById("menu-attributes").classList.remove("bg-indigo-900");
-            document.getElementById("menu-price-rules").classList.remove("bg-indigo-900");
-            document.getElementById("menu-reports").classList.remove("bg-indigo-900");
-            document.getElementById("menu-receiving").classList.remove("bg-indigo-900");
-            document.getElementById("menu-sales").classList.remove("bg-indigo-900");
-            document.getElementById("menu-deliveries").classList.remove("bg-indigo-900");
-            document.getElementById("menu-items").classList.remove("bg-indigo-900");
-            document.getElementById("menu-expenses").classList.remove("bg-indigo-900");
-            document.getElementById("menu-appointments").classList.remove("bg-indigo-900");
-            document.getElementById("menu-employees").classList.remove("bg-indigo-900");
-            document.getElementById("menu-gift-cards").classList.remove("bg-indigo-900");
-            document.getElementById("menu-store-config").classList.remove("bg-indigo-900");
-            document.getElementById("menu-locations").classList.remove("bg-indigo-900");
-            document.getElementById("menu-messages").classList.remove("bg-indigo-900");    
+            document.getElementById("menu-work-orders").classList.add("bg-zinc-900");
+            document.getElementById("menu-dashboard").classList.remove("bg-zinc-900");
+            document.getElementById("menu-customers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-suppliers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-item-kits").classList.remove("bg-zinc-900");
+            document.getElementById("menu-categories").classList.remove("bg-zinc-900");
+            document.getElementById("menu-manufacturers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-modifiers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-tags").classList.remove("bg-zinc-900");
+            document.getElementById("menu-attributes").classList.remove("bg-zinc-900");
+            document.getElementById("menu-price-rules").classList.remove("bg-zinc-900");
+            document.getElementById("menu-reports").classList.remove("bg-zinc-900");
+            document.getElementById("menu-receiving").classList.remove("bg-zinc-900");
+            document.getElementById("menu-sales").classList.remove("bg-zinc-900");
+            document.getElementById("menu-deliveries").classList.remove("bg-zinc-900");
+            document.getElementById("menu-items").classList.remove("bg-zinc-900");
+            document.getElementById("menu-expenses").classList.remove("bg-zinc-900");
+            document.getElementById("menu-appointments").classList.remove("bg-zinc-900");
+            document.getElementById("menu-employees").classList.remove("bg-zinc-900");
+            document.getElementById("menu-gift-cards").classList.remove("bg-zinc-900");
+            document.getElementById("menu-store-config").classList.remove("bg-zinc-900");
+            document.getElementById("menu-locations").classList.remove("bg-zinc-900");
+            document.getElementById("menu-messages").classList.remove("bg-zinc-900");    
             break;
 
         case "expenses":
-            document.getElementById("menu-expenses").classList.add("bg-indigo-900");
-            document.getElementById("menu-dashboard").classList.remove("bg-indigo-900");
-            document.getElementById("menu-customers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-suppliers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-item-kits").classList.remove("bg-indigo-900");
-            document.getElementById("menu-categories").classList.remove("bg-indigo-900");
-            document.getElementById("menu-manufacturers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-modifiers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-tags").classList.remove("bg-indigo-900");
-            document.getElementById("menu-attributes").classList.remove("bg-indigo-900");
-            document.getElementById("menu-price-rules").classList.remove("bg-indigo-900");
-            document.getElementById("menu-reports").classList.remove("bg-indigo-900");
-            document.getElementById("menu-receiving").classList.remove("bg-indigo-900");
-            document.getElementById("menu-sales").classList.remove("bg-indigo-900");
-            document.getElementById("menu-deliveries").classList.remove("bg-indigo-900");
-            document.getElementById("menu-work-orders").classList.remove("bg-indigo-900");
-            document.getElementById("menu-items").classList.remove("bg-indigo-900");
-            document.getElementById("menu-appointments").classList.remove("bg-indigo-900");
-            document.getElementById("menu-employees").classList.remove("bg-indigo-900");
-            document.getElementById("menu-gift-cards").classList.remove("bg-indigo-900");
-            document.getElementById("menu-store-config").classList.remove("bg-indigo-900");
-            document.getElementById("menu-locations").classList.remove("bg-indigo-900");
-            document.getElementById("menu-messages").classList.remove("bg-indigo-900");    
+            document.getElementById("menu-expenses").classList.add("bg-zinc-900");
+            document.getElementById("menu-dashboard").classList.remove("bg-zinc-900");
+            document.getElementById("menu-customers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-suppliers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-item-kits").classList.remove("bg-zinc-900");
+            document.getElementById("menu-categories").classList.remove("bg-zinc-900");
+            document.getElementById("menu-manufacturers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-modifiers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-tags").classList.remove("bg-zinc-900");
+            document.getElementById("menu-attributes").classList.remove("bg-zinc-900");
+            document.getElementById("menu-price-rules").classList.remove("bg-zinc-900");
+            document.getElementById("menu-reports").classList.remove("bg-zinc-900");
+            document.getElementById("menu-receiving").classList.remove("bg-zinc-900");
+            document.getElementById("menu-sales").classList.remove("bg-zinc-900");
+            document.getElementById("menu-deliveries").classList.remove("bg-zinc-900");
+            document.getElementById("menu-work-orders").classList.remove("bg-zinc-900");
+            document.getElementById("menu-items").classList.remove("bg-zinc-900");
+            document.getElementById("menu-appointments").classList.remove("bg-zinc-900");
+            document.getElementById("menu-employees").classList.remove("bg-zinc-900");
+            document.getElementById("menu-gift-cards").classList.remove("bg-zinc-900");
+            document.getElementById("menu-store-config").classList.remove("bg-zinc-900");
+            document.getElementById("menu-locations").classList.remove("bg-zinc-900");
+            document.getElementById("menu-messages").classList.remove("bg-zinc-900");    
             break;
 
         case "appointments":
-            document.getElementById("menu-appointments").classList.add("bg-indigo-900");
-            document.getElementById("menu-dashboard").classList.remove("bg-indigo-900");
-            document.getElementById("menu-customers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-suppliers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-item-kits").classList.remove("bg-indigo-900");
-            document.getElementById("menu-categories").classList.remove("bg-indigo-900");
-            document.getElementById("menu-manufacturers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-modifiers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-tags").classList.remove("bg-indigo-900");
-            document.getElementById("menu-attributes").classList.remove("bg-indigo-900");
-            document.getElementById("menu-price-rules").classList.remove("bg-indigo-900");
-            document.getElementById("menu-reports").classList.remove("bg-indigo-900");
-            document.getElementById("menu-receiving").classList.remove("bg-indigo-900");
-            document.getElementById("menu-sales").classList.remove("bg-indigo-900");
-            document.getElementById("menu-deliveries").classList.remove("bg-indigo-900");
-            document.getElementById("menu-work-orders").classList.remove("bg-indigo-900");
-            document.getElementById("menu-expenses").classList.remove("bg-indigo-900");
-            document.getElementById("menu-items").classList.remove("bg-indigo-900");
-            document.getElementById("menu-employees").classList.remove("bg-indigo-900");
-            document.getElementById("menu-gift-cards").classList.remove("bg-indigo-900");
-            document.getElementById("menu-store-config").classList.remove("bg-indigo-900");
-            document.getElementById("menu-locations").classList.remove("bg-indigo-900");
-            document.getElementById("menu-messages").classList.remove("bg-indigo-900");    
+            document.getElementById("menu-appointments").classList.add("bg-zinc-900");
+            document.getElementById("menu-dashboard").classList.remove("bg-zinc-900");
+            document.getElementById("menu-customers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-suppliers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-item-kits").classList.remove("bg-zinc-900");
+            document.getElementById("menu-categories").classList.remove("bg-zinc-900");
+            document.getElementById("menu-manufacturers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-modifiers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-tags").classList.remove("bg-zinc-900");
+            document.getElementById("menu-attributes").classList.remove("bg-zinc-900");
+            document.getElementById("menu-price-rules").classList.remove("bg-zinc-900");
+            document.getElementById("menu-reports").classList.remove("bg-zinc-900");
+            document.getElementById("menu-receiving").classList.remove("bg-zinc-900");
+            document.getElementById("menu-sales").classList.remove("bg-zinc-900");
+            document.getElementById("menu-deliveries").classList.remove("bg-zinc-900");
+            document.getElementById("menu-work-orders").classList.remove("bg-zinc-900");
+            document.getElementById("menu-expenses").classList.remove("bg-zinc-900");
+            document.getElementById("menu-items").classList.remove("bg-zinc-900");
+            document.getElementById("menu-employees").classList.remove("bg-zinc-900");
+            document.getElementById("menu-gift-cards").classList.remove("bg-zinc-900");
+            document.getElementById("menu-store-config").classList.remove("bg-zinc-900");
+            document.getElementById("menu-locations").classList.remove("bg-zinc-900");
+            document.getElementById("menu-messages").classList.remove("bg-zinc-900");    
             break;
 
         case "employees":
-            document.getElementById("menu-employees").classList.add("bg-indigo-900");
-            document.getElementById("menu-dashboard").classList.remove("bg-indigo-900");
-            document.getElementById("menu-customers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-suppliers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-item-kits").classList.remove("bg-indigo-900");
-            document.getElementById("menu-categories").classList.remove("bg-indigo-900");
-            document.getElementById("menu-manufacturers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-modifiers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-tags").classList.remove("bg-indigo-900");
-            document.getElementById("menu-attributes").classList.remove("bg-indigo-900");
-            document.getElementById("menu-price-rules").classList.remove("bg-indigo-900");
-            document.getElementById("menu-reports").classList.remove("bg-indigo-900");
-            document.getElementById("menu-receiving").classList.remove("bg-indigo-900");
-            document.getElementById("menu-sales").classList.remove("bg-indigo-900");
-            document.getElementById("menu-deliveries").classList.remove("bg-indigo-900");
-            document.getElementById("menu-work-orders").classList.remove("bg-indigo-900");
-            document.getElementById("menu-expenses").classList.remove("bg-indigo-900");
-            document.getElementById("menu-appointments").classList.remove("bg-indigo-900");
-            document.getElementById("menu-items").classList.remove("bg-indigo-900");
-            document.getElementById("menu-gift-cards").classList.remove("bg-indigo-900");
-            document.getElementById("menu-store-config").classList.remove("bg-indigo-900");
-            document.getElementById("menu-locations").classList.remove("bg-indigo-900");
-            document.getElementById("menu-messages").classList.remove("bg-indigo-900");    
+            document.getElementById("menu-employees").classList.add("bg-zinc-900");
+            document.getElementById("menu-dashboard").classList.remove("bg-zinc-900");
+            document.getElementById("menu-customers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-suppliers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-item-kits").classList.remove("bg-zinc-900");
+            document.getElementById("menu-categories").classList.remove("bg-zinc-900");
+            document.getElementById("menu-manufacturers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-modifiers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-tags").classList.remove("bg-zinc-900");
+            document.getElementById("menu-attributes").classList.remove("bg-zinc-900");
+            document.getElementById("menu-price-rules").classList.remove("bg-zinc-900");
+            document.getElementById("menu-reports").classList.remove("bg-zinc-900");
+            document.getElementById("menu-receiving").classList.remove("bg-zinc-900");
+            document.getElementById("menu-sales").classList.remove("bg-zinc-900");
+            document.getElementById("menu-deliveries").classList.remove("bg-zinc-900");
+            document.getElementById("menu-work-orders").classList.remove("bg-zinc-900");
+            document.getElementById("menu-expenses").classList.remove("bg-zinc-900");
+            document.getElementById("menu-appointments").classList.remove("bg-zinc-900");
+            document.getElementById("menu-items").classList.remove("bg-zinc-900");
+            document.getElementById("menu-gift-cards").classList.remove("bg-zinc-900");
+            document.getElementById("menu-store-config").classList.remove("bg-zinc-900");
+            document.getElementById("menu-locations").classList.remove("bg-zinc-900");
+            document.getElementById("menu-messages").classList.remove("bg-zinc-900");    
             break;
 
         case "gift-cards":
-            document.getElementById("menu-gift-cards").classList.add("bg-indigo-900");
-            document.getElementById("menu-dashboard").classList.remove("bg-indigo-900");
-            document.getElementById("menu-customers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-suppliers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-item-kits").classList.remove("bg-indigo-900");
-            document.getElementById("menu-categories").classList.remove("bg-indigo-900");
-            document.getElementById("menu-manufacturers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-modifiers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-tags").classList.remove("bg-indigo-900");
-            document.getElementById("menu-attributes").classList.remove("bg-indigo-900");
-            document.getElementById("menu-price-rules").classList.remove("bg-indigo-900");
-            document.getElementById("menu-reports").classList.remove("bg-indigo-900");
-            document.getElementById("menu-receiving").classList.remove("bg-indigo-900");
-            document.getElementById("menu-sales").classList.remove("bg-indigo-900");
-            document.getElementById("menu-deliveries").classList.remove("bg-indigo-900");
-            document.getElementById("menu-work-orders").classList.remove("bg-indigo-900");
-            document.getElementById("menu-expenses").classList.remove("bg-indigo-900");
-            document.getElementById("menu-appointments").classList.remove("bg-indigo-900");
-            document.getElementById("menu-employees").classList.remove("bg-indigo-900");
-            document.getElementById("menu-items").classList.remove("bg-indigo-900");
-            document.getElementById("menu-store-config").classList.remove("bg-indigo-900");
-            document.getElementById("menu-locations").classList.remove("bg-indigo-900");
-            document.getElementById("menu-messages").classList.remove("bg-indigo-900");    
+            document.getElementById("menu-gift-cards").classList.add("bg-zinc-900");
+            document.getElementById("menu-dashboard").classList.remove("bg-zinc-900");
+            document.getElementById("menu-customers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-suppliers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-item-kits").classList.remove("bg-zinc-900");
+            document.getElementById("menu-categories").classList.remove("bg-zinc-900");
+            document.getElementById("menu-manufacturers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-modifiers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-tags").classList.remove("bg-zinc-900");
+            document.getElementById("menu-attributes").classList.remove("bg-zinc-900");
+            document.getElementById("menu-price-rules").classList.remove("bg-zinc-900");
+            document.getElementById("menu-reports").classList.remove("bg-zinc-900");
+            document.getElementById("menu-receiving").classList.remove("bg-zinc-900");
+            document.getElementById("menu-sales").classList.remove("bg-zinc-900");
+            document.getElementById("menu-deliveries").classList.remove("bg-zinc-900");
+            document.getElementById("menu-work-orders").classList.remove("bg-zinc-900");
+            document.getElementById("menu-expenses").classList.remove("bg-zinc-900");
+            document.getElementById("menu-appointments").classList.remove("bg-zinc-900");
+            document.getElementById("menu-employees").classList.remove("bg-zinc-900");
+            document.getElementById("menu-items").classList.remove("bg-zinc-900");
+            document.getElementById("menu-store-config").classList.remove("bg-zinc-900");
+            document.getElementById("menu-locations").classList.remove("bg-zinc-900");
+            document.getElementById("menu-messages").classList.remove("bg-zinc-900");    
             break;
 
         case "store-config":
-            document.getElementById("menu-store-config").classList.add("bg-indigo-900");
-            document.getElementById("menu-dashboard").classList.remove("bg-indigo-900");
-            document.getElementById("menu-customers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-suppliers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-item-kits").classList.remove("bg-indigo-900");
-            document.getElementById("menu-categories").classList.remove("bg-indigo-900");
-            document.getElementById("menu-manufacturers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-modifiers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-tags").classList.remove("bg-indigo-900");
-            document.getElementById("menu-attributes").classList.remove("bg-indigo-900");
-            document.getElementById("menu-price-rules").classList.remove("bg-indigo-900");
-            document.getElementById("menu-reports").classList.remove("bg-indigo-900");
-            document.getElementById("menu-receiving").classList.remove("bg-indigo-900");
-            document.getElementById("menu-sales").classList.remove("bg-indigo-900");
-            document.getElementById("menu-deliveries").classList.remove("bg-indigo-900");
-            document.getElementById("menu-work-orders").classList.remove("bg-indigo-900");
-            document.getElementById("menu-expenses").classList.remove("bg-indigo-900");
-            document.getElementById("menu-appointments").classList.remove("bg-indigo-900");
-            document.getElementById("menu-employees").classList.remove("bg-indigo-900");
-            document.getElementById("menu-gift-cards").classList.remove("bg-indigo-900");
-            document.getElementById("menu-items").classList.remove("bg-indigo-900");
-            document.getElementById("menu-locations").classList.remove("bg-indigo-900");
-            document.getElementById("menu-messages").classList.remove("bg-indigo-900");    
+            document.getElementById("menu-store-config").classList.add("bg-zinc-900");
+            document.getElementById("menu-dashboard").classList.remove("bg-zinc-900");
+            document.getElementById("menu-customers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-suppliers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-item-kits").classList.remove("bg-zinc-900");
+            document.getElementById("menu-categories").classList.remove("bg-zinc-900");
+            document.getElementById("menu-manufacturers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-modifiers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-tags").classList.remove("bg-zinc-900");
+            document.getElementById("menu-attributes").classList.remove("bg-zinc-900");
+            document.getElementById("menu-price-rules").classList.remove("bg-zinc-900");
+            document.getElementById("menu-reports").classList.remove("bg-zinc-900");
+            document.getElementById("menu-receiving").classList.remove("bg-zinc-900");
+            document.getElementById("menu-sales").classList.remove("bg-zinc-900");
+            document.getElementById("menu-deliveries").classList.remove("bg-zinc-900");
+            document.getElementById("menu-work-orders").classList.remove("bg-zinc-900");
+            document.getElementById("menu-expenses").classList.remove("bg-zinc-900");
+            document.getElementById("menu-appointments").classList.remove("bg-zinc-900");
+            document.getElementById("menu-employees").classList.remove("bg-zinc-900");
+            document.getElementById("menu-gift-cards").classList.remove("bg-zinc-900");
+            document.getElementById("menu-items").classList.remove("bg-zinc-900");
+            document.getElementById("menu-locations").classList.remove("bg-zinc-900");
+            document.getElementById("menu-messages").classList.remove("bg-zinc-900");    
             break;
 
         case "locations":
-            document.getElementById("menu-locations").classList.add("bg-indigo-900");
-            document.getElementById("menu-dashboard").classList.remove("bg-indigo-900");
-            document.getElementById("menu-customers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-suppliers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-item-kits").classList.remove("bg-indigo-900");
-            document.getElementById("menu-categories").classList.remove("bg-indigo-900");
-            document.getElementById("menu-manufacturers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-modifiers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-tags").classList.remove("bg-indigo-900");
-            document.getElementById("menu-attributes").classList.remove("bg-indigo-900");
-            document.getElementById("menu-price-rules").classList.remove("bg-indigo-900");
-            document.getElementById("menu-reports").classList.remove("bg-indigo-900");
-            document.getElementById("menu-receiving").classList.remove("bg-indigo-900");
-            document.getElementById("menu-sales").classList.remove("bg-indigo-900");
-            document.getElementById("menu-deliveries").classList.remove("bg-indigo-900");
-            document.getElementById("menu-work-orders").classList.remove("bg-indigo-900");
-            document.getElementById("menu-expenses").classList.remove("bg-indigo-900");
-            document.getElementById("menu-appointments").classList.remove("bg-indigo-900");
-            document.getElementById("menu-employees").classList.remove("bg-indigo-900");
-            document.getElementById("menu-gift-cards").classList.remove("bg-indigo-900");
-            document.getElementById("menu-store-config").classList.remove("bg-indigo-900");
-            document.getElementById("menu-items").classList.remove("bg-indigo-900");
-            document.getElementById("menu-messages").classList.remove("bg-indigo-900");    
+            document.getElementById("menu-locations").classList.add("bg-zinc-900");
+            document.getElementById("menu-dashboard").classList.remove("bg-zinc-900");
+            document.getElementById("menu-customers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-suppliers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-item-kits").classList.remove("bg-zinc-900");
+            document.getElementById("menu-categories").classList.remove("bg-zinc-900");
+            document.getElementById("menu-manufacturers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-modifiers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-tags").classList.remove("bg-zinc-900");
+            document.getElementById("menu-attributes").classList.remove("bg-zinc-900");
+            document.getElementById("menu-price-rules").classList.remove("bg-zinc-900");
+            document.getElementById("menu-reports").classList.remove("bg-zinc-900");
+            document.getElementById("menu-receiving").classList.remove("bg-zinc-900");
+            document.getElementById("menu-sales").classList.remove("bg-zinc-900");
+            document.getElementById("menu-deliveries").classList.remove("bg-zinc-900");
+            document.getElementById("menu-work-orders").classList.remove("bg-zinc-900");
+            document.getElementById("menu-expenses").classList.remove("bg-zinc-900");
+            document.getElementById("menu-appointments").classList.remove("bg-zinc-900");
+            document.getElementById("menu-employees").classList.remove("bg-zinc-900");
+            document.getElementById("menu-gift-cards").classList.remove("bg-zinc-900");
+            document.getElementById("menu-store-config").classList.remove("bg-zinc-900");
+            document.getElementById("menu-items").classList.remove("bg-zinc-900");
+            document.getElementById("menu-messages").classList.remove("bg-zinc-900");    
             break;
 
         case "messages":
-            document.getElementById("menu-messages").classList.add("bg-indigo-900");
-            document.getElementById("menu-dashboard").classList.remove("bg-indigo-900");
-            document.getElementById("menu-customers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-suppliers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-item-kits").classList.remove("bg-indigo-900");
-            document.getElementById("menu-categories").classList.remove("bg-indigo-900");
-            document.getElementById("menu-manufacturers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-modifiers").classList.remove("bg-indigo-900");
-            document.getElementById("menu-tags").classList.remove("bg-indigo-900");
-            document.getElementById("menu-attributes").classList.remove("bg-indigo-900");
-            document.getElementById("menu-price-rules").classList.remove("bg-indigo-900");
-            document.getElementById("menu-reports").classList.remove("bg-indigo-900");
-            document.getElementById("menu-receiving").classList.remove("bg-indigo-900");
-            document.getElementById("menu-sales").classList.remove("bg-indigo-900");
-            document.getElementById("menu-deliveries").classList.remove("bg-indigo-900");
-            document.getElementById("menu-work-orders").classList.remove("bg-indigo-900");
-            document.getElementById("menu-expenses").classList.remove("bg-indigo-900");
-            document.getElementById("menu-appointments").classList.remove("bg-indigo-900");
-            document.getElementById("menu-employees").classList.remove("bg-indigo-900");
-            document.getElementById("menu-gift-cards").classList.remove("bg-indigo-900");
-            document.getElementById("menu-store-config").classList.remove("bg-indigo-900");
-            document.getElementById("menu-locations").classList.remove("bg-indigo-900");
-            document.getElementById("menu-items").classList.remove("bg-indigo-900");    
+            document.getElementById("menu-messages").classList.add("bg-zinc-900");
+            document.getElementById("menu-dashboard").classList.remove("bg-zinc-900");
+            document.getElementById("menu-customers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-suppliers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-item-kits").classList.remove("bg-zinc-900");
+            document.getElementById("menu-categories").classList.remove("bg-zinc-900");
+            document.getElementById("menu-manufacturers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-modifiers").classList.remove("bg-zinc-900");
+            document.getElementById("menu-tags").classList.remove("bg-zinc-900");
+            document.getElementById("menu-attributes").classList.remove("bg-zinc-900");
+            document.getElementById("menu-price-rules").classList.remove("bg-zinc-900");
+            document.getElementById("menu-reports").classList.remove("bg-zinc-900");
+            document.getElementById("menu-receiving").classList.remove("bg-zinc-900");
+            document.getElementById("menu-sales").classList.remove("bg-zinc-900");
+            document.getElementById("menu-deliveries").classList.remove("bg-zinc-900");
+            document.getElementById("menu-work-orders").classList.remove("bg-zinc-900");
+            document.getElementById("menu-expenses").classList.remove("bg-zinc-900");
+            document.getElementById("menu-appointments").classList.remove("bg-zinc-900");
+            document.getElementById("menu-employees").classList.remove("bg-zinc-900");
+            document.getElementById("menu-gift-cards").classList.remove("bg-zinc-900");
+            document.getElementById("menu-store-config").classList.remove("bg-zinc-900");
+            document.getElementById("menu-locations").classList.remove("bg-zinc-900");
+            document.getElementById("menu-items").classList.remove("bg-zinc-900");    
             break;
         default:
             break;
